@@ -322,25 +322,11 @@ export default {
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
-          nombre: 'Luz Aída Quintero Velásquez',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Gestión Industrial - Regional Distro Capital',
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Metodólogo para Formación Virtual',
+          centro: 'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
-        {
-          nombre: 'Gloria Alexandra Orejarena Barrios',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Gestión Industrial - Regional Distro Capital',
-        },
-        {
-          nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Asesora metodológica',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Sandra Patricia Hoyos Spúlveda',
-          cargo: 'Corrección de estilo',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
+
       ],
     },
     {
@@ -369,12 +355,7 @@ export default {
           cargo: 'Revisión de guión audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
-        {
-          nombre: '',
-          cargo: 'Validación de contenido',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
+
       ],
     },
     {

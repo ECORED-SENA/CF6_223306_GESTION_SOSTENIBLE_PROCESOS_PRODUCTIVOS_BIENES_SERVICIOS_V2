@@ -14,7 +14,7 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.justify-content-center(titulo="Innovación de producto")
             .col-md-12.col-lg-7.mb-4.mb-md-0
-              p.mt-4 Es la inclusión de un nuevo bien o servicio o la mejora radical de las características de alguno de ellos. Los ejemplos más cotidianos se encuentran en la tecnología como relojes inteligentes, automóviles que se conducen solos, ropa que cambia de color, entre otros.         
+              p.mt-4 Es la inclusión de un nuevo bien o servicio o la mejora radical de las características de alguno de ellos. Los ejemplos más cotidianos se encuentran en la tecnología, como relojes inteligentes, automóviles que se conducen solos, ropa que cambia de color, entre otros.         
             .col-md-12.col-lg-4
               figure
                 img.img-t.m-auto(src='@/assets/curso/tema1/img01.png', alt='')
@@ -47,7 +47,7 @@
               figure
                 img.img-t.m-auto(src='@/assets/curso/tema1/img05.png', alt='')
 
-    p(data-aos="fade-right") De acuerdo con los enfoques y tipos de innovación descritos anteriormente, las empresas deben analizar cuáles de ellos son los más convenientes, a lo cual conoceremos como alternativa, ya que este término significa la decisión de escoger entre una o más opciones de acuerdo con una serie de criterios, que para nuestro caso serán las políticas organizacionales y el análisis financiero. 
+    p(data-aos="fade-right").mb-5 De acuerdo con los enfoques y tipos de innovación descritos anteriormente, las empresas deben analizar cuáles de ellos son los más convenientes, a lo cual conoceremos como alternativa, ya que este término significa la decisión de escoger entre una o más opciones de acuerdo con una serie de criterios, que para nuestro caso serán las políticas organizacionales y el análisis financiero. 
       br
       br
       |Posterior a la definición de las alternativas posibles de innovación, se debe realizar una propuesta de alternativas de innovación, la cual significa una idea desarrollada y estructurada bajo los conceptos de innovación y análisis de los recursos e impactos organizacionales. Lo invitamos a revisar a continuación, las etapas para elaborar una propuesta de alternativas de innovación:
@@ -134,7 +134,7 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Recursos tecnológicos")
         .row
           .col-xl-8.mb-4
-            p En este caso estos recursos provienen de la aplicación del conocimiento científico, debido a que un recurso tecnológico puede ser #[em hardware, software,] máquinas, equipos o herramientas con características automatizadas, así como también es posible contar con capacidades de investigación, desarrollo e innovación.
+            p En este caso,  estos recursos provienen de la aplicación del conocimiento científico, debido a que un recurso tecnológico puede ser #[em hardware, software,] máquinas, equipos o herramientas con características automatizadas, así como también es posible contar con capacidades de investigación, desarrollo e innovación.
               br
               br
               |La importancia de este recurso se fundamenta en generar diferenciales, ya sean en automatización, estandarización, innovación o similares.
@@ -170,7 +170,7 @@
       .py-4.py-md-5(titulo="Patente")
         .row.justify-content-around
           .col-11.col-md-11.col-lg-6.mb-4.mb-md-0
-            p Es un derecho único que se concede a un titular para explotar la invención permitiendo de este modo un uso colectivo amplio. 
+            p Es un derecho único que se concede a un titular para explotar la invención, permitiendo de este modo un uso colectivo amplio. 
             p Dependiendo la cantidad de patentes se pueden proyectar el dinamismo tecnológico y el crecimiento según las orientaciones de cada proceso.     
           .col-11.col-md-11.col-lg-5
             figure
@@ -180,7 +180,7 @@
         .row.justify-content-around
           .col-11.col-md-11.col-lg-6.mb-4.mb-md-0
             p De acuerdo a cada tipo de empresa se establecerán los indicadores, algunos ejemplos son incrementos de las ventas, posicionamiento en el mercado, reducción de costos, entre otros. 
-            p Este indicador se mide internamente en la organización, a diferencia de los dos anteriores los cuales son la métrica genérica de medición de innovación para un sector o país. 
+            p Este indicador se mide internamente en la organización, a diferencia de los dos anteriores, los cuales son la métrica genérica de medición de innovación para un sector o país. 
           .col-11.col-md-11.col-lg-5
             figure
               img.img-t.mx-auto(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
@@ -235,30 +235,30 @@
         .col-md-10.col-lg-6(data-aos="fade-left")
           p.mb-5 Algunas de las ventajas para evaluar la capacidad de innovación son:
           ol.lista-ol--cuadro.lista-ol--separador
-            li 
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 1
-              | Medir la diferencia y diversificar los productos.
-            li 
+              p.mb-0 Medir la diferencia y diversificar los productos.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 2
-              | Permite evaluar el desarrollo de mercados.
-            li 
+              p.mb-0 Permite evaluar el desarrollo de mercados.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 3
-              | Brinda nuevas oportunidades de negocio.
-            li 
+              p.mb-0 Brinda nuevas oportunidades de negocio.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 4
-              | Ofrece a los clientes servicios o productos personalizados.
-            li 
+              p.mb-0 Ofrece a los clientes servicios o productos personalizados.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 5
-              | Asegura un lugar estratégico en el mercado.
-            li 
+              p.mb-0 Asegura un lugar estratégico en el mercado.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 6
-              | Tiene altas posibilidades de cumplir con las necesidades de los consumidores.
+              p.mb-0 Tiene altas posibilidades de cumplir con las necesidades de los consumidores.
             li
 
       Separador
@@ -285,8 +285,8 @@
 
     .bg_5 
       .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-        h5 Tabla 1
-        span <em>Ejemplo Tabla de medición en el cumplimiento de la eficiencia en indicadores de innovación</em>
+        h5 Tabla 1.
+        span Ejemplo Tabla de medición en el cumplimiento de la eficiencia en indicadores de innovación
 
       .row.justify-content-center(data-aos="fade-down-right")
         .col-lg-12    
@@ -323,14 +323,14 @@
                   td.text-center(colspan="2") Se redujo entre un 4 % al 6 % 
                   td.text-center(colspan="2") Redujo más de 6 %
 
-      p.mb-5 El método de análisis e interpretación de los resultados de la eficiencia dependerá de la estructura organizativa de las empresas y cómo influyen las actividades de innovación en las políticas organizacionales, debido a que organizaciones con mayores niveles de competitividad en innovación, buscarán cumplir siempre la eficiencia de los procesos, y en caso que no se cumplan, se realizarán modelos y planes de mejora.      
+      p.mb-5 El método de análisis e interpretación de los resultados de la eficiencia dependerá de la estructura organizativa de las empresas y cómo influyen las actividades de innovación en las políticas organizacionales, debido a que organizaciones con mayores niveles de competitividad en innovación, buscarán cumplir siempre la eficiencia de los procesos, y en caso de que no se cumplan, se realizarán modelos y planes de mejora.      
 
       Separador  
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 1.3 Modelos y planes de mejora  
 
-    p.mb-4 Un modelo es el diseño de la manera cómo se va a alcanzar un fin específico, este fin puede ser desde un producto o servicio, según sea el enfoque empresarial, razón por la cual se puede indicar que el modelo es la manera ideal de cómo realizar un proceso, para obtener un resultado esperado. En cuanto a los planes  de mejora, buscan establecer cuáles deben ser las actividades para incrementar la eficiencia en el resultado de los indicadores establecidos por la organización. Los principales tipos de mejora son:   
+    p.mb-4 Un modelo es el diseño de la manera como se va a alcanzar un fin específico, este fin puede ser desde un producto o servicio, según sea el enfoque empresarial, razón por la cual se puede indicar que el modelo es la manera ideal de cómo realizar un proceso, para obtener un resultado esperado. En cuanto a los planes  de mejora, buscan establecer cuáles deben ser las actividades para incrementar la eficiencia en el resultado de los indicadores establecidos por la organización. Los principales tipos de mejora son:   
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade-right")
@@ -370,7 +370,7 @@
 
       .row
         .col-lg-12.col-11
-          h4.my-4.ms-lg-5.ms-4 3. Verificar (<em>heck</em>)
+          h4.my-4.ms-lg-5.ms-4 3. Verificar (<em>Heck</em>)
           .row.justify-content-center
             .col-10.col-md-11.col-lg-5              
               p En este punto se busca evaluar cada una de las acciones previamente elaboradas y establecidas, por lo que se realiza un análisis sobre los resultados obtenidos en los puntos anteriores.
@@ -393,8 +393,8 @@
     .row.justify-content-center.mb-5
       .col-lg-8    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 1
-          span <em>Modelo Deming</em>
+          h5 Figura 1.
+          span Modelo Deming
         figure(data-aos="fade-down")
           img.img-t.mx-auto(src='@/assets/curso/tema1/img36.svg', alt='Imagen que presenta las etapas del Método Deming: planificar, hacer, verificar y actuar.')
 
@@ -416,8 +416,8 @@
     .row.justify-content-center.mb-5
       .col-lg-10    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 2
-          span <em>Modelo Malcolm Baldrige</em>
+          h5 Figura 2.
+          span Modelo Malcolm Baldrige
         figure(data-aos="fade-down")
           img.img-t.mx-auto(src='@/assets/curso/tema1/img39.svg', alt='Imagen que presenta los indicadores del Modelo Malcolm Baldrige.')
 
@@ -440,8 +440,8 @@
     .row.justify-content-center.mb-5
       .col-lg-10    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 3
-          span <em>Modelo EFQM de excelencia</em>
+          h5 Figura 3.
+          span Modelo EFQM de excelencia
         figure(data-aos="fade-down")
           img.img-t.mx-auto(src='@/assets/curso/tema1/img41.svg', alt='Imagen que presenta los indicadores del Modelo EFQM de excelencia.')
 
@@ -459,8 +459,8 @@
     .row.justify-content-center.mb-5
       .col-lg-6    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 4
-          span Modelos Matemáticos
+          h5 Figura 4.
+          span Modelos matemáticos
         figure(data-aos="fade-down")
           img.img-t.mx-auto(src='@/assets/curso/tema1/img42.svg', alt='Imagen que presenta el proceso para llevar a cabo un modelo matemático.')
 
@@ -471,7 +471,7 @@
             img(src="@/assets/curso/tema1/img30.svg")
           .col-5.col-md-6.col-lg-5
             h4.m-0 Modelo Lean Manufacturing
-        p Esta herramienta se enfoca en las necesidades de los clientes, brindando un mejor servicio, con respuestas y atención eficaz optimizando de esta manera los ciclos de trabajo. El <em>Lean Manufacturing</em> (manufactura esbelta) es una de las herramientas más utilizadas en la actualidad para el proceso de mejora y busca eliminar o evadir procesos sin valor, o que lleven a ningún fin específico, por lo que se centra en los eliminar los ocho principales desperdicios más comunes en cualquier tipo de producción de bienes o servicios y proyectos de innovación, como se presentan a continuación:     
+        p Esta herramienta se enfoca en las necesidades de los clientes, brindando un mejor servicio, con respuestas y atención eficaz, optimizando de esta manera los ciclos de trabajo. El <em>Lean Manufacturing</em> (manufactura esbelta) es una de las herramientas más utilizadas en la actualidad para el proceso de mejora y busca eliminar o evadir procesos sin valor, o que lleven a ningún fin específico, por lo que se centra en eliminar los ocho principales desperdicios más comunes en cualquier tipo de producción de bienes o servicios y proyectos de innovación, como se presentan a continuación:     
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
       .tarjeta-avatar.h_1
@@ -555,7 +555,7 @@
             h4.m-0 Parámetros del modelo
         p Son herramientas para establecer en un modelo, los criterios de análisis, variables y especificaciones para la evaluación, los cuales se establecen con el fin de indicar cuáles son las cifras a obtener y su relevancia en el modelo. Algunos de estos parámetros son:
 
-    .row.justify-content-center.mb-5.d-none.d-md-inline-flex.d-lg-inline-flex(data-aos="fade-down-right")
+    .row.justify-content-center.mb-5.d-none.d-md-inline-flex.d-lg-inline-flex.aling-items-between(data-aos="fade-down-right")
       .col-lg-2.col-md-3
         .bg_7.p-4.mb-2
           p.mt-3.text-center.text-white Requerido
@@ -567,9 +567,9 @@
         .bg_10.p-4.mb-2
           p.m-0.text-center Aquel parámetro que debe tener un valor para que las herramientas sean ejecutadas.
         .bg_11.p-4.mb-2
-          p.m-0.text-center No es necesario ningún valor para el cálculo de las variables ya que es información complementaria para el análisis.
+          p.m-0.text-center No es necesario ningún valor para el cálculo de las variables, ya que es información complementaria para el análisis.
         .bg_12.p-4
-          p.m-0.text-center  Se utiliza para establecer valores de los parámetros generados por la afectación de una variable; es decir dependen de un valor requerido para su cálculo.
+          p.m-0.text-center  Se utiliza para establecer valores de los parámetros generados por la afectación de una variable; es decir, dependen de un valor requerido para su cálculo.
 
     .row.justify-content-center.mb-5.d-lg-none.d-md-none.d-inline-flex
       .col-12
@@ -597,50 +597,50 @@
             img.img-t.mx-auto(src='@/assets/curso/tema1/img52.svg', alt='')
         .col-md-10.col-lg-7(data-aos="fade-down")
           ol.lista-ol--cuadro.lista-ol--separador
-            li 
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 1
-              | Incrementa la productividad.
-            li 
+              p.mb-0 Incrementa la productividad.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 2
-              | Incrementa el rendimiento del equipo.
-            li 
+              p.mb-0 Incrementa el rendimiento del equipo.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 3
-              | Permite reducir los costos.
-            li 
+              p.mb-0 Permite reducir los costos.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 4
-              | Beneficios en la mejora de procesos, garantizando optimización de las operaciones de las empresas.
-            li 
+              p.mb-0 Beneficios en la mejora de procesos, garantizando optimización de las operaciones de las empresas.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 5
-              | Disminución de errores.
-            li 
+              p.mb-0 Disminución de errores.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 6
-              | Generar negocios eficientes.
-            li 
+              p.mb-0 Generar negocios eficientes.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 7
-              | Aumentar la calidad en productos y servicios.
-            li 
+              p.mb-0 Aumentar la calidad en productos y servicios.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 8
-              | Fomentar oportunidades de innovación. 
-            li 
+              p.mb-0 Fomentar oportunidades de innovación. 
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 9
-              | Realizar trazabilidad de la implementación de la innovación. 
-            li 
+              p.mb-0 Realizar trazabilidad de la implementación de la innovación. 
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 10
-              | Desarrollar procesos de innovación continuo.
-            li 
+              p.mb-0 Desarrollar procesos de innovación continuo.
+            li.d-flex 
               .lista-ol--cuadro__vineta
                 span 11
-              | Mejorar la cultura de innovación.
+              p.mb-0 Mejorar la cultura de innovación.
             li
 
       p.mb-4 Para ampliar la información, lo invitamos a ver el video Actividades del plan de mejora, el cual se encuentra en el material complementario.
@@ -651,27 +651,27 @@
       .row.mb-4
         .col-lg-4(data-aos="fade-right")
           ul.lista-ul--color.lista-ol--separador
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
               | Identificar el área de mejora en la cual se va a implementar o mejorar la innovación.
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
               | Detectar las principales causas del problema, o limitante para ser innovadores.
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
               | Formular el objetivo, el cual es el estado deseado y deberá tener un enfoque en innovación.
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
               | Seleccionar las acciones de mejora que permitirán lograr la innovación deseada.
         .col-lg-4(data-aos="fade-right")
           ul.lista-ul--color.lista-ol--separador
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
               | Realizar una planificación detallada en la cual se incluirán todos los recursos.
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
               | Asignar responsables para la ejecución y el control de la operación.
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
               | Llevar a cabo el seguimiento por medio de la medición de indicadores.
             li 
@@ -685,33 +685,33 @@
           img.img-t.m-auto(src="@/assets/curso/tema1/img55.png")
         .col-lg-4(data-aos="fade-right")
           ul.lista-ul--color.lista-ol--separador
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
               p.m-0 <b>Ser realistas:</b> para conocer la posibilidad de cumplimiento.
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
               p.mb-4 <b>Acotados:</b> definiendo el tiempo y el grado de mejora.
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
               p.m-0 <b>Flexibilidad:</b> disposición para realizar modificaciones en situaciones imprevistas.
             li 
 
         .col-lg-4(data-aos="fade-right")
           ul.lista-ul--color.lista-ol--separador
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
               p.m-0 <b>Compresible:</b> ante los cambios posibles que se puedan realizar durante la ejecución.
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
               p.m-0 <b>Obligatorio:</b> bebe existir un horizonte claro que permita lograr la meta, sin importar la variación de las actividades intermedias.
             li 
 
-    p.mb-5 En la actualidad, existen múltiples herramientas para realizar la planeación de la innovación, en las cuales se incluyen procesos de formulación y seguimiento. Una de ellas es la Hoja de ruta tecnológica, la cual permite planear el cuándo, el cuál, el por qué y el cómo se implementarán los procesos de innovación tecnológica, midiéndose en horizonte de tiempo a corto y a largo plazo, según sea la estrategia. Algunos características y beneficios en su implementación son:
+    p.mb-5 En la actualidad, existen múltiples herramientas para realizar la planeación de la innovación, en las cuales se incluyen procesos de formulación y seguimiento. Una de ellas es la Hoja de ruta tecnológica, la cual permite planear el cuándo, el cuál, el por qué y el cómo se implementarán los procesos de innovación tecnológica, midiéndose en horizonte de tiempo a corto y a largo plazo, según sea la estrategia. Algunas características y beneficios en su implementación son:
 
     .row.justify-content-center.mb-5
       .col-lg-10    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 5
+          h5 Figura 5.
           span Características y beneficios
         figure(data-aos="fade-down")
           img.img-t.mx-auto(src='@/assets/curso/tema1/img56.svg', alt='Imagen que presenta las características y beneficios en la implementación de la Hoja de ruta tecnológica.')
@@ -778,8 +778,8 @@
     .row.justify-content-center.mb-5
       .col-lg-8    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 6
-          span <em>Ejemplo Hoja de ruta tecnológica</em>
+          h5 Figura 6.
+          span Ejemplo Hoja de ruta tecnológica
         figure(data-aos="fade-down")
           img.img-t.mx-auto(src='@/assets/curso/tema1/img63.svg', alt='Imagen que presenta un ejemplo de Hoja de ruta tecnológica en la innovación de procesos productivos.')
 

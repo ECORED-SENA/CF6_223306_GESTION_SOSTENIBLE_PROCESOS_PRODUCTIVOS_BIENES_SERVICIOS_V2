@@ -14,7 +14,7 @@
     .row.justify-content-center
       .col-lg-10
         .bg_20.p-4
-          p.m-0 Para determinar la factibilidad del plan de trabajo que contiene el detalle de la implementación de las alternativas de innovación seleccionadas, es necesario realizar un proceso de evaluación, el cual equivale a calificar los costos e impactos del plan de innovación por medio de un sistema de medición, teniendo en cuenta los indicadores estratégicos en la empresas, siendo los más comunes los costos, los beneficios, la tasa de retorno de la inversión, entre otros que se presentan explicados en detalle a continuación:
+          p.m-0 Para determinar la factibilidad del plan de trabajo que contiene el detalle de la implementación de las alternativas de innovación seleccionadas, es necesario realizar un proceso de evaluación, el cual equivale a calificar los costos e impactos del plan de innovación por medio de un sistema de medición, teniendo en cuenta los indicadores estratégicos en las empresas, siendo los más comunes los costos, los beneficios, la tasa de retorno de la inversión, entre otros que se presentan explicados en detalle a continuación:
 
     Separador 
 
@@ -55,10 +55,10 @@
             p.text-bold Costos según la forma de concentración 
             p Para lo cual se deben realizar el cálculo financiero de las variables y posteriormente se asocia a una orden de producción u orden de proceso, siendo:
             ul.lista-ul
-              li 
+              li.d-flex 
                 i.lista-ul__vineta
                 p.m-0 <b>Costos por órdenes:</b> se calculan los valores del costo para una determinada orden de producción, a la cual se le asocian todos los costos y gastos. Ejemplo: para determinar el costo, se tomarán los valores del lote de un pedido de 100 celulares, por medio de la sumatoria de todos los costos y gastos del proceso productivo del lote.
-              li 
+              li.d-flex 
                 i.lista-ul__vineta
                 p.m-0 <b>Costos por proceso:</b> se emplea cuando los costos se agrupan por un proceso específico, debido a que la fabricación de bienes o servicios es cambiante. Ejemplo: el costeo para la producción de una bebida, se costea todo el proceso y posteriormente se divide de forma general, en toda la cantidad de productos generados.         
 
@@ -70,13 +70,13 @@
             p.text-bold Sistemas de costos según el momento de obtención
             p Su unidad de medida es el tiempo, con el cual se estima el valor individual, siendo: 
             ul.lista-ul
-              li 
+              li.d-flex 
                 i.lista-ul__vineta
-                p.m-0 <b>Sistemas de costos históricos o resultantes:</b> son aquellos que son consumidos para luego establecer el costo dependiendo qué insumos fueron utilizados en el periodo definido. Ejemplo durante un mes se cultivó y se recogió una cosecha de fruta, es por ello que el cálculo será sumar todos los costos y gasto del mes, para ser divididos por los productos cosechados.
-              li 
+                p.m-0 <b>Sistemas de costos históricos o resultantes:</b> son aquellos que son consumidos para luego establecer el costo dependiendo qué insumos fueron utilizados en el periodo definido. Ejemplo, durante un mes se cultivó y se recogió una cosecha de fruta, es por ello que el cálculo será sumar todos los costos y gasto del mes, para ser divididos por los productos cosechados.
+              li.d-flex 
                 i.lista-ul__vineta
                 p.m-0 <b>Sistemas de costos predeterminados:</b> en este sistema los costos se determinan según los consumos estimados. Estos costos se establecen antes de la producción, basada en futuros, tomando como base las cantidades a producir de acuerdo con el mercado. 
-              li 
+              li.d-flex 
                 i.lista-ul__vineta
                 p.m-0 <b>Costos estándar:</b> se guían por las experiencias, para perseguir un objetivo y establecer los precios en las ventas.
 
@@ -85,29 +85,65 @@
     .row.justify-content-center.mb-5
         .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
           ul.lista-ul--color.lista-ol--separador
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
-              | Obtener costos reales.
-            li 
+              p.mb-0 Obtener costos reales.
+            li.d-flex 
               i.fas.fa-check-circle
-              | Resumen de gastos por área.
-            li 
+              p.mb-0 Resumen de gastos por área.
+            li.d-flex 
               i.fas.fa-check-circle
-              | Costo de productos o servicios prestados.
-            li 
+              p.mb-0 Costo de productos o servicios prestados.
+            li.d-flex 
               i.fas.fa-check-circle
-              | Análisis de pérdidas en los costos.    
+              p.mb-0 Análisis de pérdidas en los costos.    
         .col-lg-5(data-aos="fade-left")
           img.img-t.m-auto(src="@/assets/curso/tema2/img06.png")
 
     .row.justify-content-center.mb-5
       .col-lg-8    
         p.mb-4 Las principales ventajas de realizar un cálculo de costos, en un proceso de invocación varían según el tipo de la empresa y el tipo de innovación que se esté realizando. Siendo las ventajas más comunes: 
-        .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 7
-          span <em>Principales ventajas de realizar un cálculo de costos</em>
-        figure(data-aos="fade-down-right")
-          img.img-t.mx-auto(src='@/assets/curso/tema2/img07.svg', alt='AvatarTop')
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/c1.svg' alt='AvatarTop')
+        .tarjeta.w-100(style="background-color: #faebcd ")
+          .p-4
+            p.mb-0 Una alta coherencia entre la innovación deseada y el costo del producto.
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/c2.svg' alt='AvatarTop')
+        .tarjeta.w-100(style="background-color: #faebcd ")
+          .p-4
+            p.mb-0 Puntos de referencia para que las empresas puedan evaluar su desempeño.
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/c3.svg' alt='AvatarTop')
+        .tarjeta.w-100(style="background-color: #faebcd ")
+          .p-4
+            p.mb-0 Registro de actividades.
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/c4.svg' alt='AvatarTop')
+        .tarjeta.w-100(style="background-color: #faebcd ")
+          .p-4
+            p.mb-0 Probabilidad para lograr el financiamiento.
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/c5.svg' alt='AvatarTop')
+        .tarjeta.w-100(style="background-color: #faebcd ")
+          .p-4
+            p.mb-0 Se obtiene precisión sobre los precios individuales de los productos y servicios.
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/c6.svg' alt='AvatarTop')
+        .tarjeta.w-100(style="background-color: #faebcd ")
+          .p-4
+            p.mb-0 Una productividad mayor, gracias a que elimina los productos no rentables y las actividades que no agregan valor al proyecto.
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/c7.svg' alt='AvatarTop')
+        .tarjeta.w-100(style="background-color: #faebcd ")
+          .p-4
+            p.mb-0 Información anticipada y productiva.
+      .tarjeta-avatar
+        img(src='@/assets/curso/tema2/c8.svg' alt='AvatarTop')
+        .tarjeta.w-100(style="background-color: #faebcd ")
+          .p-4
+            p.mb-0 Facilita la formulación de los presupuestos.
 
     p.mb-5(data-aos='fade-right') Para ampliar la información, lo invitamos a ver el video Costeo e indicadores en la negociación verde: costos y presupuestos, el cual se encuentra en el material complementario.
 
@@ -116,34 +152,34 @@
     .row.mb-4
       .col-lg-4(data-aos="fade-right")
         ul.lista-ul--color.lista-ol--separador
-          li 
+          li.d-flex 
             i.fas.fa-check-circle
-            | Costos de producción.
-          li 
+            p.mb-0 Costos de producción.
+          li.d-flex 
             i.fas.fa-check-circle
-            | Suministros.
-          li 
+            p.mb-0 Suministros.
+          li.d-flex 
             i.fas.fa-check-circle
-            | Salarios.
-          li 
+            p.mb-0 Salarios.
+          li.d-flex 
             i.fas.fa-check-circle
-            | Impuestos.
+            p.mb-0 Impuestos.
       .col-lg-4(data-aos="fade-right")
         ul.lista-ul--color.lista-ol--separador
-          li 
+          li.d-flex 
             i.fas.fa-check-circle
-            | Volumen de ventas.
-          li 
+            p.mb-0 Volumen de ventas.
+          li.d-flex 
             i.fas.fa-check-circle
-            | Nivel de producción óptimo.
-          li 
+            p.mb-0 Nivel de producción óptimo.
+          li.d-flex 
             i.fas.fa-check-circle
-            | Coste de financiación.
+            p.mb-0 Coste de financiación.
           li 
       .col-lg-4(data-aos="fade-left")
         img.img-t.m-auto(src="@/assets/curso/tema2/img08.png")
 
-    p.mb-5 Adicionalmente el análisis de costo beneficio sirve para emprender o lanzar nuevos productos, ya que tiene una amplia visión para realizar inversiones y comprobar que los beneficios son los esperados. Gracias a esto se puede saber qué tan rentable es un proyecto. Para esto se debe tener en cuenta:  
+    p.mb-5 Adicionalmente, el análisis de costo beneficio sirve para emprender o lanzar nuevos productos, ya que tiene una amplia visión para realizar inversiones y comprobar que los beneficios son los esperados. Gracias a esto se puede saber qué tan rentable es un proyecto. Para esto se debe tener en cuenta:  
         
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
       .tarjeta-avatar.h_2
@@ -174,7 +210,7 @@
             .col-lg-10.col-xl-12.col-xxl-10            
               p.text-center Selección del proyecto innovación más adecuado de las propuestas y alternativas posibles. 
 
-    p.mb-5 Para este tipo de análisis de costos beneficio no existe un formato estándar para realizar el cálculo, ya que las estructuras varían dependiendo la situación, la industria, el tipo de innovación deseada y el beneficio esperado el cual puede estar representado en utilidades económicas, posicionamiento del mercado, desarrollo de nuevos productos, entre otros. Sin embargo, se sugiere que el análisis del costo beneficio para proyectos de innovación incluya los siguientes elementos: 
+    p.mb-5 Para este tipo de análisis de costos beneficio no existe un formato estándar para realizar el cálculo, ya que las estructuras varían dependiendo la situación, la industria, el tipo de innovación deseada y el beneficio esperado, el cual puede estar representado en utilidades económicas, posicionamiento del mercado, desarrollo de nuevos productos, entre otros. Sin embargo, se sugiere que el análisis del costo beneficio para proyectos de innovación incluya los siguientes elementos: 
 
         
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
@@ -229,18 +265,18 @@
           .row.justify-content-center
             .col-lg-4
               ul.lista-ul--color
-                li 
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <b>CAE =</b> flujo de efectivo 
-                li 
+                  p.mb-0.m-0 <b>CAE =</b> flujo de efectivo 
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <b>VAN =</b> valor actual neto
-                li 
+                  p.mb-0.m-0 <b>VAN =</b> valor actual neto
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <b>FVPA =</b> flujo neto al final del periodo
-                li 
+                  p.mb-0.m-0 <b>FVPA =</b> flujo neto al final del periodo
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <b>R =</b> tasa de descuento 
+                  p.mb-0.m-0 <b>R =</b> tasa de descuento 
             .col-lg-6.align-self-center
               figure
                 img.img-t.mx-auto(src='@/assets/curso/tema2/img12.png', alt='Fórmula para calcular el costo anual equivalente.')
@@ -255,18 +291,18 @@
           .row.justify-content-center
             .col-lg-4
               ul.lista-ul--color
-                li 
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <b>CAE =</b> flujo de efectivo 
-                li 
+                  p.mb-0.m-0 <b>CAE =</b> flujo de efectivo 
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <b>VAN =</b> valor actual neto
-                li 
+                  p.mb-0.m-0 <b>VAN =</b> valor actual neto
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <em><b>i=</b></em> Tasa de interés 
-                li 
+                  p.mb-0.m-0 <em><b>i=</b></em> Tasa de interés 
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <em><b>n=</b></em> Número de periodos a evaluar 
+                  p.mb-0.m-0 <em><b>n=</b></em> Número de periodos a evaluar 
             .col-lg-6.align-self-center
               figure
                 img.img-t.mx-auto(src='@/assets/curso/tema2/img13.png', alt='Fórmula que presenta otro método para calcular el costo anual equivalente.')
@@ -310,15 +346,16 @@
               img(src='@/assets/curso/tema2/img15.svg', alt='Imagen que presenta la explicación cuando la TIR es igual, menor o mayor que el interés de la inversión.')
 
           .tarjeta.color3.p-3(x="17.4%" y="49%" numero="+")
-            .h4.mb-2 | La TIR > i
-            p Quiere decir que el proyecto es viable económicamente, gracias a que la rentabilidad generada por el proyecto de innovación es mayor a la obtenida después de invertir los recursos a la tasa de interés. 
+            .h4.mb-2 La TIR = i
+            p Significa que el proyecto es indiferente, es decir, que es igual la rentabilidad que se obtendría al invertir los recursos en otra actividad económica.
+            
 
           .tarjeta.color3.p-3(x="51.7%" y="17%" numero="+")
-            .h4.mb-2 | La TIR = i
-            p Significa que el proyecto es indiferente, es decir, que es igual la rentabilidad que se obtendría al invertir los recursos en otra actividad económica.
+            .h4.mb-2 La TIR > i
+            p Quiere decir que el proyecto es viable económicamente, gracias a que la rentabilidad generada por el proyecto de innovación es mayor a la obtenida después de invertir los recursos a la tasa de interés. 
 
           .tarjeta.color3.p-3(x="82.2%" y="48.5%" numero="+")
-            .h4.mb-2 | La TIR < i
+            .h4.mb-2 La TIR < i
             p Quiere decir que no es viable económicamente, debido a que la rentabilidad del proyecto de innovación es menor a la inversión de recursos en la tasa de oportunidad del mercado. 
 
     p Los métodos consisten en calcular la tasa de rentabilidad propia de cada proyecto, es decir, que la tasa de interés que hace que el valor presente de los ingresos, sea igual al valor presente de los egresos. La fórmula de la TIR es:
@@ -329,21 +366,21 @@
           .row.justify-content-center
             .col-lg-7
               ul.lista-ul--color
-                li 
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <em><b>I<sub>0</sub> =</b></em> Inversión inicial
-                li 
+                  p.mb-0.m-0 <em><b>I<sub>0</sub> =</b></em> Inversión inicial
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <em><b>C<sub>n</sub> =</b></em> Flujo de caja o de beneficios generados por la inversión en cada periodo
-                li 
+                  p.mb-0.m-0 <em><b>C<sub>n</sub> =</b></em> Flujo de caja o de beneficios generados por la inversión en cada periodo
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <b>N =</b> Número total de periodos
-                li 
+                  p.mb-0.m-0 <b>N =</b> Número total de periodos
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <b>N =</b> Año en el que se van obteniendo los beneficios de cada periodo
-                li 
+                  p.mb-0.m-0 <b>N =</b> Año en el que se van obteniendo los beneficios de cada periodo
+                li.d-flex 
                   i.fas.fa-check-circle
-                  p.m-0 <b>R =</b> TIR                
+                  p.mb-0.m-0 <b>R =</b> TIR                
             .col-lg-4.align-self-center
               figure
                 img.img-t.mx-auto(src='@/assets/curso/tema2/img16.png', alt='Fórmula para calcular la TIR.')
@@ -352,39 +389,38 @@
       .col-lg-12
           p Todos los proyectos implican inversión y recursos, así como oportunidades que pueden generar grandes resultados, por lo tanto, es necesario evaluarlo, para analizar si es factible y rentable. Es por esto que la Tasa Interna de Retorno es una de las mejores opciones para evaluar económicamente la innovación, gracias a que se basa en el flujo de caja de cada proyecto, con lo cual es posible una planificación financiera óptima debido a que mide la viabilidad del proyecto a ejecutar, evitando riesgos económicos que puedan presentarse. 
 
-    .bg_16
-      .row.justify-content-md-center.align-items-center
-        .col-md-12.col-lg-5.mb-5(data-aos="fade-right")
-          figure
-            img.img-t.mx-auto.mb-0.mb-lg-5(src='@/assets/curso/tema2/img16.svg', alt='')
-        .col-md-10.col-lg-7(data-aos="fade-left")
-          p.mb-5 Las principales ventajas de la tasa interna de retorno en una empresa que tiene procesos de innovación son:
-          ol.lista-ol--cuadro.lista-ol--separador
-            li 
-              .lista-ol--cuadro__vineta
-                span 1
-              | Maximiza la rentabilidad de los negocios o proyectos que se quieren realizar. 
-            li 
-              .lista-ol--cuadro__vineta
-                span 2
-              | Examina la inversión para verificar que tan rentable puede ser.
-            li 
-              .lista-ol--cuadro__vineta
-                span 3
-              | Su información está enfocada en los flujos de efectivo de los negocios.
-            li 
-              .lista-ol--cuadro__vineta
-                span 4
-              | Se ajusta con el valor real de la unidad monetaria.
-            li 
-              .lista-ol--cuadro__vineta
-                span 5
-              | Facilita la comparación de varios proyectos.
-            li  
-              .lista-ol--cuadro__vineta
-                span 6
-              | Genera cifras estratégicas para la toma de decisiones. 
-            li          
+    
+    .row.justify-content-md-center.align-items-center
+      .col-md-12.col-lg-5.mb-5(data-aos="fade-right")
+        figure
+          img.img-t.mx-auto.mb-0.mb-lg-5(src='@/assets/curso/tema2/img16.svg', alt='')
+      .col-md-10.col-lg-7(data-aos="fade-left")
+        p.mb-5 Las principales ventajas de la tasa interna de retorno en una empresa que tiene procesos de innovación son:
+        ol.lista-ol--cuadro.lista-ol--separador
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            | Maximiza la rentabilidad de los negocios o proyectos que se quieren realizar. 
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            | Examina la inversión para verificar que tan rentable puede ser.
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            | Su información está enfocada en los flujos de efectivo de los negocios.
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            | Se ajusta con el valor real de la unidad monetaria.
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
+            | Facilita la comparación de varios proyectos.
+          li  
+            .lista-ol--cuadro__vineta
+              span 6
+            | Genera cifras estratégicas para la toma de decisiones.        
 
     p.mb-5(data-aos='fade-right') Para ampliar el concepto de análisis de tasa de retorno, lo invitamos a ver el video Alternativas de inversión, el cual se encuentra en el material complementario.
 
@@ -517,36 +553,36 @@
         .col-lg-5(data-aos="fade-left")
           p.mb-4.mb-lg-5.mb-xl-4.mb-xxl-5 El enfoque y el uso de los indicadores dependerá de las áreas de innovación a implementar en cada una de las empresas, obteniendo en su gran mayoría los siguientes beneficios: 
           ul.lista-ul--color
-            li 
+            li.d-flex 
               i.fas.fa-check-circle
-              | Comunica las metas.
-            li 
+              p.mb-0 Comunica las metas.
+            li.d-flex 
               i.fas.fa-check-circle
-              | Identifica problemas y oportunidades.
-            li 
+              p.mb-0 Identifica problemas y oportunidades.
+            li.d-flex 
               i.fas.fa-check-circle
-              | Mejora el control de la empresa.
-            li 
+              p.mb-0 Mejora el control de la empresa.
+            li.d-flex 
               i.fas.fa-check-circle
-              | Identifica iniciativas y acciones.
-            li 
+              p.mb-0 Identifica iniciativas y acciones.
+            li.d-flex 
               i.fas.fa-check-circle
-              | Permite plantear objetivos y metas.
-            li 
+              p.mb-0 Permite plantear objetivos y metas.
+            li.d-flex 
               i.fas.fa-check-circle
-              | Define responsabilidades. 
-            li 
+              p.mb-0 Define responsabilidades. 
+            li.d-flex 
               i.fas.fa-check-circle
-              | Facilita la delegación en las personas.
-            li 
+              p.mb-0 Facilita la delegación en las personas.
+            li.d-flex 
               i.fas.fa-check-circle
-              | Crea ambientes de aprendizaje para la empresa.
-            li
+              p.mb-0 Crea ambientes de aprendizaje para la empresa.
+            li.d-flex
               i.fas.fa-check-circle
-              | Aumenta la motivación en los trabajadores.
-            li 
+              p.mb-0 Aumenta la motivación en los trabajadores.
+            li.d-flex 
               i.fas.fa-check-circle
-              | Analiza y mide el progreso del tiempo.
+              p.mb-0 Analiza y mide el progreso del tiempo.
 
       p.mb-4 Ahora bien, después de conocer los beneficios que tiene los indicadores de innovación, es importante conocer la manera de interpretar los indicadores de gestión, y para esto, lo invitamos a ver el video Interpretación de indicadores de gestión (KPI), el cual se encuentra en el material complementario.
 
@@ -594,27 +630,27 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6(data-aos="fade-right")        
         ul.lista-ul--color
-          li 
+          li.d-flex 
             i.fas.fa-check-circle
-            | Planifica y realizar seguimientos de forma gráfica y analítica, a la ejecución de un proyecto de innovación.
-          li 
+            p.mb-0 Planifica y realizar seguimientos de forma gráfica y analítica, a la ejecución de un proyecto de innovación.
+          li.d-flex 
             i.fas.fa-check-circle
-            | Define cronograma y realiza seguimientos del proyecto, indicando quién y qué actividad se realizará, así como también cuándo se realizará y cuánto tiempo tardará.
-          li 
+            p.mb-0 Define cronograma y realiza seguimientos del proyecto, indicando quién y qué actividad se realizará, así como también cuándo se realizará y cuánto tiempo tardará.
+          li.d-flex 
             i.fas.fa-check-circle
-            | Establece recursos, tanto en equipos, máquinas, materiales, como personal responsable.
-          li 
+            p.mb-0 Establece recursos, tanto en equipos, máquinas, materiales, como personal responsable.
+          li.d-flex 
             i.fas.fa-check-circle
-            | Controla y mide progresos, con lo cual se valida el avance del proyecto y los niveles de utilización de los recursos.
-          li 
+            p.mb-0 Controla y mide progresos, con lo cual se valida el avance del proyecto y los niveles de utilización de los recursos.
+          li.d-flex 
             i.fas.fa-check-circle
-            | Permite definir puntos críticos (hitos), restricciones y dependencia de las diferentes actividades del proyecto.
-          li 
+            p.mb-0 Permite definir puntos críticos (hitos), restricciones y dependencia de las diferentes actividades del proyecto.
+          li.d-flex 
             i.fas.fa-check-circle
-            | Visualiza fallos y problemas, por medio de la verificación entre lo planeado y lo ejecutado.
-          li 
+            p.mb-0 Visualiza fallos y problemas, por medio de la verificación entre lo planeado y lo ejecutado.
+          li.d-flex 
             i.fas.fa-check-circle
-            | Visualiza en barras de tiempo, el escenario proyectado y el cumplimiento real.
+            p.mb-0 Visualiza en barras de tiempo, el escenario proyectado y el cumplimiento real.
 
       .col-lg-6(data-aos="fade-left")
         figure
@@ -623,8 +659,8 @@
     p.mb-4 A continuación, se presenta un gráfico de Gantt con un ejemplo de planeación de innovación de un proceso de producción de bienes o servicios.
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      h5 Tabla 2
-      span <em>Ejemplo Diagrama Gantt</em>
+      h5 Tabla 2.
+      span Ejemplo Diagrama Gantt
     figure(data-aos="fade-down-right")
       img.img-t.mx-auto(src='@/assets/curso/tema2/img29.svg', alt='AvatarTop') 
 

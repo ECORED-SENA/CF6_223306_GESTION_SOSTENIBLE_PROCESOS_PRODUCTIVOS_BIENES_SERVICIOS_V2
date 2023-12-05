@@ -14,7 +14,7 @@
         p Bienvenido al presente componente formativo, donde aprenderá a proponer y evaluar diferentes alternativas de innovación.
           br
           br
-          |La metodología del componente es teórico- práctica, debido a que se contextualiza con definiciones y explicaciones de casos prácticos, a los cuales se les profundizará con videos multimedia, culminando con actividades prácticas para validar el conocimiento, como lo es un taller de relacionamiento de conceptos y una guía de aprendizaje. Antes de iniciar el estudio de este componente, lo invitamos a observar el siguiente video:
+          |La metodología del componente es teórico-práctica, debido a que se contextualiza con definiciones y explicaciones de casos prácticos, a los cuales se les profundizará con videos multimedia, culminando con actividades prácticas para validar el conocimiento, como lo es un taller de relacionamiento de conceptos y una guía de aprendizaje. Antes de iniciar el estudio de este componente, lo invitamos a observar el siguiente video:
       .col-lg-2
         figure(data-aos="fade-right")
           img.img-t.m-auto(src='@/assets/curso/introduccion/img01.svg')
