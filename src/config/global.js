@@ -324,9 +324,9 @@ export default {
         {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Metodólogo para Formación Virtual',
-          centro: 'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
-
       ],
     },
     {
@@ -355,7 +355,6 @@ export default {
           cargo: 'Revisión de guión audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
-
       ],
     },
     {
