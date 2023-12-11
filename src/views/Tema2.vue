@@ -40,12 +40,12 @@
             p.text-bold Sistemas según los elementos del costo
             p En el cual para un producto o servicio se debe calcular el costo fijo de la operación y posteriormente se le adicionan los costos variables, siendo:
             ul.lista-ul
-              li 
+              li.d-flex 
                 i.lista-ul__vineta
-                p.m-0 <b>Costos fijos:</b> son aquellos que se mantienen continuos, independientemente de si se utilizan o no. Algunos ejemplos son el arriendo de un lugar, el sueldo de una persona. 
-              li 
+                p.mb-0 <b>Costos fijos:</b> son aquellos que se mantienen continuos, independientemente de si se utilizan o no. Algunos ejemplos son el arriendo de un lugar, el sueldo de una persona. 
+              li.d-flex 
                 i.lista-ul__vineta
-                p.m-0 <b>Costos variables:</b> son aquellos valores económicos que cambian dependiendo del uso para la producción de un bien o servicio. Algunos ejemplos son las materias primas utilizadas para la elaboración de un producto innovador, las comisiones generadas por las ventas de una innovación comercial, entre otros.
+                p.mb-0 <b>Costos variables:</b> son aquellos valores económicos que cambian dependiendo del uso para la producción de un bien o servicio. Algunos ejemplos son las materias primas utilizadas para la elaboración de un producto innovador, las comisiones generadas por las ventas de una innovación comercial, entre otros.
             
         .row.justify-content-lg-center(titulo="Costos según la forma de concentración")
           .col-lg-3.col-md-10.col-10.mb-4.mb-lg-0
@@ -676,9 +676,10 @@
 
     p(data-aos="fade-right") Es una de las herramientas más utilizadas, gracias a su atractivo diseño, interfaz, variedad y sencillez de funciones. Su interfaz es minimalista y da una buena opción para quienes son principiantes en el mundo del software para la gestión de proyectos. Lo invitamos a conocer más acerca de esta herramienta en el siguiente video:
 
-    figure
-    .video.mb-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/-ESSDbSw2_A?si=PRCCuY0VzoM3iWQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Asana
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-12
@@ -691,8 +692,9 @@
     p(data-aos="fade-right") Es una herramienta lúdica, que organiza la información de los proyectos, discusiones, entradas o chats mediante tarjetas para que después esta sea arrastrada y soltada en diferentes listas o páginas. Lo invitamos a conocer más acerca de esta herramienta en el siguiente video:
 
     figure
-    .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/n5IOTafXlRg?si=xDy9eEof-6ED_DVn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Trello 
 
 
 </template>

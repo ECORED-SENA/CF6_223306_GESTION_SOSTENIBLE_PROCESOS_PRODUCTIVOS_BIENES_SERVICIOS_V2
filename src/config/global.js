@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'La innovación es una empresa genera competitividad, pero es necesario diagnosticar su situación actual, con el fin de realizar propuestas de mejora, que le permitan incrementar los niveles de innovación, los cuales deberán ser evaluados de acuerdo con las políticas organizacionales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -132,7 +132,7 @@ export default {
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA (2022). Diagnóstico para el fortalecimiento y competitividad empresarial. [Video]. Youtube.',
       tipo: 'Video',
-      link: 'https://youtu.be/g3qVqkPkNXY',
+      link: 'https://youtu.be/z12CGt-XY5E?si=bh-YgcSNRUu6x1Yv',
     },
     {
       tema: '1.2 Eficiencias del proceso',
@@ -351,9 +351,22 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Revisión de guión audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          nombre: 'Wilson Andrés Arenales Cáceres ',
+          cargo: 'Storyboard e Ilustración ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carmen Alicia Martinez Torres ',
+          cargo: 'Animador y Productor Multimedia	 ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
