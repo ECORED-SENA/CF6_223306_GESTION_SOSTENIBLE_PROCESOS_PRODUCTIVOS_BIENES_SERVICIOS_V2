@@ -112,7 +112,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/223306_CF06_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -310,12 +310,6 @@ export default {
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable equipo desarrollo curricular',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
         {
           nombre: 'Eric Daniel Moreno Muñoz',
           cargo: 'Experto temático',

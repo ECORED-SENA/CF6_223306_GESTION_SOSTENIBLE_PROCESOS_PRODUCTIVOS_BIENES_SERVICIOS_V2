@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Diagrama que presenta las diferentes etapas y fases que se deben tener presentes al proponer y evaluar alternativas de innovación.")
+          img(src="@/assets/curso/sintesis/sintesis.svg", alt="Diagrama que presenta las diferentes etapas y fases que se deben tener presentes al proponer y evaluar alternativas de innovación.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
