@@ -307,14 +307,14 @@
                 tr.bg_color2
                   td.text-center(colspan="4") Número de productos innovadores desarrollados al mes.
                   td.text-center(colspan="2") 10 %
-                  td.text-center(colspan="2") Menos de 9
-                  td.text-center(colspan="2") Entre 9 a 11
-                  td.text-center(colspan="2") Más de 11
+                  td.text-center(colspan="2") Menos de 9 %
+                  td.text-center(colspan="2") Entre 9 % a 11 %
+                  td.text-center(colspan="2") Más de 11 %
                 tr
                   td.text-center(colspan="4") Porcentaje de ganancia adicional obtenidos por la innovación comercial.
                   td.text-center(colspan="2") 15 %
                   td.text-center(colspan="2") Menos de 14 %
-                  td.text-center(colspan="2") Entre 15 al 18 %
+                  td.text-center(colspan="2") Entre 15 % al 18 %
                   td.text-center(colspan="2") Más del 18 %
                 tr.bg_color2
                   td.text-center(colspan="4") Porcentaje en la reducción de desperdicios con la implementación de innovación en materiales.
